@@ -1,0 +1,27 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Terraform variable files with secrets
+*.tfvars
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Secrets
+.env
+*.key
+*.pem
